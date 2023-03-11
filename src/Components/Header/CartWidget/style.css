@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Babylonica&family=Lora:ital@1&family=Montserrat:wght@200&family=Poppins:ital,wght@1,200&family=Roboto:wght@300&family=Work+Sans:wght@200&display=swap");
+
+.cartWidgetContainer {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.cartWidgetItem {
+  font-size: 30px;
+  user-select: none;
+}
+.quantityCart {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  width: 15px;
+  height: 15px;
+  background-color: #212121;
+  color: whitesmoke;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 7px;
+  right: 2px;
+  padding: 4px;
+}

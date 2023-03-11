@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+Sobre el proyecto
+
+Este es un e-commerce con todas sus funcionalidades desde la elección de un producto hasta la compra de este mismo recibiendo un id de la compra de por medio. En este caso, se ha empleado solo ayuda de google fonts para elegir los tipos de letras y tambien google icon para poder darle una funcionalidad mas decorativa. Además hemos usado como base de datos a firebase, que nos brinda una coleccion de los productos que tenemos actualmente en stock, y tambien fue usado para brindar el id de transaccion.
+
+El tipo de tienda de productos de ropa y accesorios, se busca con el fin de que el cliente puede encontrar cosas variadas pero enfocandonos un poco mas en la ropa de hombre y mujer.
+
+
+Se esta instalando el npm --save-dev gh-pages para hacer que nuestra pagina sea visible en el repositorio de github

@@ -1,0 +1,54 @@
+
+.changeQuantity {
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  .addQuantity {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #212121;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .restQuantity {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #212121;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .addQuantity:hover{
+    color: white;
+    background-color: #212121;
+  }
+  
+  .restQuantity:hover{
+    color: white;
+    background-color: #212121;
+  }
+  .quantity {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+  }
+  .addToCart{
+    width: 180px;
+    height: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: .3s;
+  }
+  .addToCart:hover{
+    color: white;
+    background-color: #212121;
+  }

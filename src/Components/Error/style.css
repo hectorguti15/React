@@ -1,0 +1,40 @@
+.errorContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .errorContainer div {
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #b63333;
+    box-shadow: 20px 20px 60px #a4a4a4, -20px -20px 60px #afadad;
+  }
+  .errorContainer div h1 {
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+    font-size: 16px;
+  }
+  .buttonError {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    
+    border: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+  }
+  .buttonError:hover {
+    border-bottom: 2px solid black;
+  }
+  

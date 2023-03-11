@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Babylonica&family=Lora:ital@1&family=Montserrat:wght@200&family=Poppins:ital,wght@1,200&family=Roboto:wght@300&family=Work+Sans:wght@200&display=swap");
+
+.productContainer {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 5.1px 1.1px 7.5px rgba(0, 0, 0, 0.015),
+    10px 2.1px 19.2px rgba(0, 0, 0, 0.024),
+    14.6px 3.1px 40.1px rgba(0, 0, 0, 0.032),
+    19.3px 4.1px 82.3px rgba(0, 0, 0, 0.039),
+    25.6px 5.5px 88.7px rgba(0, 0, 0, 0.049), 42px 9px 80px rgba(0, 0, 0, 0.07);
+  transition: 0.2s;
+  cursor: pointer;
+}
+.productContainer:hover {
+  transform: scale(1.01);
+}
+.productImgContainer {
+  width: 350px;
+  height: 350px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productImgItem {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+.productInfoContainer {
+  height: 150px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.producTitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin: 4px;
+  color: #444444;
+}
+.productCategory {
+  margin: 4px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  color: #858585;
+}
+.productPrice {
+  align-self: flex-end;
+  font-size: 19px;
+  font-family: "Lora", serif;
+}
+
+.buttonsProduct {
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.moreInfo {
+  width: 400px;
+  cursor: pointer;
+  border:none;
+  border-bottom: 1px solid #212121;
+  background-color: transparent;
+  padding: 6px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.moreInfo:hover {
+  background-color: #343434;
+  color: whitesmoke;
+}
