@@ -7,7 +7,7 @@ import("./style.css");
 const Header = () => {
   return (
     <div className="Header">
-      <Link to="/" style={{ textDecoration: "none" }}>
+      <Link to="/react" style={{ textDecoration: "none" }}>
         <h1 className="title">Shopping Store</h1>
       </Link>
       <NavBar>

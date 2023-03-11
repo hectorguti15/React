@@ -14,7 +14,7 @@ export const ItemDetail = ({ item }) => {
       <main>
         <div className="detailContainer">
           <div className="Info">
-            <Link to={`/image/${item.id}`}style={{cursor:"pointer"}}>
+            <Link to={`/react/image/${item.id}`}style={{cursor:"pointer"}}>
               <div className="imgContainer">
                 <img className="imgItem" src={item.img} alt=""></img>
               </div>

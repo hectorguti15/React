@@ -69,7 +69,7 @@ const Cart = () => {
               <h4 className="total">Total: ${totalFixed}</h4>
             </div>
           </div>
-          <Link to={"/cart"} onClick={cartClick}>
+          <Link to={"/react/cart"} onClick={cartClick}>
             <button className="finishBuy">Finish buying</button>
           </Link>
         </>

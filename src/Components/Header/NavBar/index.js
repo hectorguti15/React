@@ -7,10 +7,10 @@ const NavBar = ({ children }) => {
   return (
     <div className="navBar">
       <ul className="ulList">
-        <Li link={"/"} name={"Home"} />
-        <Li link={"/Category/Men"} name={"Men"} />
-        <Li link={"/Category/Women"} name={"Women"} />
-        <Li link={"/Category/Accesories"} name={"Accesories"} />
+        <Li link={"/react"} name={"Home"} />
+        <Li link={"/react/Category/Men"} name={"Men"} />
+        <Li link={"/react/Category/Women"} name={"Women"} />
+        <Li link={"/react/Category/Accesories"} name={"Accesories"} />
       </ul>
       {children}
     </div>

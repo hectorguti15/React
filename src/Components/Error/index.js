@@ -8,7 +8,7 @@ export const Error = () => {
       <div>
         <h1>Something was wrong! Try again</h1>
       </div>
-      <Link to={"/"}>
+      <Link to={"/react"}>
         <button className="buttonError">Back at home</button>
       </Link>
     </div>

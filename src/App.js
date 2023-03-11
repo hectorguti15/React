@@ -16,13 +16,13 @@ function App() {
     <CartList>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/category/men" element={<Men />} />
-          <Route path="/category/women" element={<Women />} />
-          <Route path="/category/Accesories" element={<Accesories />} />
-          <Route path="/:category/:title/:id" element={<ProductInfo />} />
-          <Route path="/image/:id" element={<Image/>} />
-          <Route path="/cart" element={<Checkout/>} />
+          <Route path="/react" element={<Home />} />
+          <Route path="/react/category/men" element={<Men />} />
+          <Route path="/react/category/women" element={<Women />} />
+          <Route path="/react/category/Accesories" element={<Accesories />} />
+          <Route path="/react/:category/:title/:id" element={<ProductInfo />} />
+          <Route path="/react/image/:id" element={<Image/>} />
+          <Route path="/react/cart" element={<Checkout/>} />
 
           <Route path="*" element={<Error />} />
         </Routes>

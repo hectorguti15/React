@@ -15,7 +15,7 @@ const Item = ({ data }) => {
       </div>
       <div className="buttonsProduct">
         <Link
-          to={`/${data.category}/${data.title}/${data.id}`}
+          to={`/react/${data.category}/${data.title}/${data.id}`}
           style={{ textDecoration: "none" }}
         >
           <button className="moreInfo">View More</button>
